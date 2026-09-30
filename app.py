@@ -154,4 +154,14 @@ with tab4:
                     st.info(res)
 
 st.markdown("<br><hr>", unsafe_allow_html=True)
+
+# --- SEO Section (આ લખાણ Google સર્ચમાં સાઇટને ઉપર લાવવામાં મદદ કરશે) ---
+with st.expander("About this AI Social Media Toolkit"):
+    st.write("""
+    **Free AI Instagram Caption Generator & Social Media Toolkit**  
+    Welcome to the ultimate AI tool for content creators! Whether you need a viral Instagram caption, trending hashtags, YouTube SEO optimization (titles and descriptions), or a highly engaging Reels script, this free tool has you covered.
+    
+    Supported languages: Gujarati, Hindi, and English. Grow your social media presence faster with our AI-powered features!
+    """)
+
 st.markdown("<center>Made with ❤️ to empower Creators</center>", unsafe_allow_html=True)
