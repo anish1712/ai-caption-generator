@@ -5,7 +5,7 @@ import base64
 
 urllib3.disable_warnings()
 
-st.set_page_config(page_title="AI Social Media Toolkit", page_icon="🚀", layout="centered")
+st.set_page_config(page_title="ViralCaption AI", page_icon="🚀", layout="centered")
 
 # --- Custom CSS ---
 st.markdown("""
@@ -79,7 +79,7 @@ def generate_ai_content(prompt, image_file=None):
 
 
 # --- Main Page ---
-st.title("🚀 AI Social Media Toolkit")
+st.title("🚀 ViralCaption AI")
 st.markdown("<p style='text-align: center; color: gray; font-size: 16px;'>તમારા Instagram અને YouTube માટે વાયરલ કન્ટેન્ટ બનાવો!</p>", unsafe_allow_html=True)
 
 lang = st.selectbox("🌐 Select Language / ભાષા / भाषा", ["Gujarati", "Hindi", "English"])
@@ -160,10 +160,10 @@ with tab4:
 st.markdown("<br><hr>", unsafe_allow_html=True)
 
 # --- SEO Section (આ લખાણ Google સર્ચમાં સાઇટને ઉપર લાવવામાં મદદ કરશે) ---
-with st.expander("About this AI Social Media Toolkit"):
+with st.expander("About ViralCaption AI - The Ultimate Social Media Toolkit"):
     st.write("""
-    **Free AI Instagram Caption Generator & Social Media Toolkit**  
-    Welcome to the ultimate AI tool for content creators! Whether you need a viral Instagram caption, trending hashtags, YouTube SEO optimization (titles and descriptions), or a highly engaging Reels script, this free tool has you covered.
+    **ViralCaption AI: Free Instagram Caption Generator & Content Maker**  
+    Welcome to ViralCaption AI, the ultimate tool for content creators! Whether you need a viral Instagram caption, trending hashtags, YouTube SEO optimization (titles and descriptions), or a highly engaging Reels script, this free tool has you covered.
     
     Supported languages: Gujarati, Hindi, and English. Grow your social media presence faster with our AI-powered features!
     """)
