@@ -209,7 +209,9 @@ with tab1:
                 res = generate_ai_content(prompt, uploaded_file)
                 if res:
                     st.success(t["success"])
-                    st.info(res)
+                    st.markdown("---")
+                    st.markdown(res)
+                    st.markdown("---")
 
 # --- TAB 2: Viral Hashtags ---
 with tab2:
@@ -224,7 +226,9 @@ with tab2:
                 res = generate_ai_content(prompt)
                 if res:
                     st.success(t["hash_success"])
-                    st.info(res)
+                    st.markdown("---")
+                    st.markdown(res)
+                    st.markdown("---")
 
 # --- TAB 3: YouTube SEO ---
 with tab3:
@@ -239,7 +243,9 @@ with tab3:
                 res = generate_ai_content(prompt)
                 if res:
                     st.success(t["yt_success"])
-                    st.info(res)
+                    st.markdown("---")
+                    st.markdown(res)
+                    st.markdown("---")
 
 # --- TAB 4: Reels Script Writer ---
 with tab4:
@@ -254,7 +260,9 @@ with tab4:
                 res = generate_ai_content(prompt)
                 if res:
                     st.success(t["reel_success"])
-                    st.info(res)
+                    st.markdown("---")
+                    st.markdown(res)
+                    st.markdown("---")
 
 st.markdown("<br><hr>", unsafe_allow_html=True)
 
